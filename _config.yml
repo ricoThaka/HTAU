@@ -1,0 +1,20 @@
+description: "Base for a static website blog - built with Jekyll and the default theme"
+
+email: holetoanotheruniverse40@gmail.com
+twitter_username: @moonlover404
+github_username: ricoThaka
+rss: RSS
+
+### Build settings ###
+
+url: https://ricoThaka.github.io
+baseurl: /HTAU
+
+permalink: pretty
+paginate: 5
+paginate_path: "/HTAU/page:num/"
+theme: midnight
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
